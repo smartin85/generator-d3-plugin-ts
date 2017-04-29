@@ -3,6 +3,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
+[![Coverage percentage][coveralls-image]][coveralls-url]
 
 > [Yeoman](http://yeoman.io) generator to scaffold out a [D3](https://d3js.org/) v4 plugin boilerplate with typescript
 
