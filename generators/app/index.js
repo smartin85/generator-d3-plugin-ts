@@ -32,6 +32,7 @@ module.exports = class extends Generator {
       try {
         this.user.github.username((err, username) => resolve(username)); // eslint-disable-line handle-callback-err
       } catch (err) {
+        /* istanbul ignore next */
         resolve('');
       }
     });
@@ -54,6 +55,7 @@ module.exports = class extends Generator {
               var done = this.async();
               pkgName(answers.pluginName, function (err, available) {
                 if (err) {
+                  /* istanbul ignore next */
                   done(false);
                 }
                 if (!available.npm || !available.bower) {
