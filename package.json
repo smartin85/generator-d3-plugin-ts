@@ -1,7 +1,7 @@
 {
   "name": "generator-d3-plugin-ts",
   "version": "1.0.0",
-  "description": "Scaffold out a d3 plugin boilerplate with typescript",
+  "description": "Yeoman generator to scaffold out a d3 plugin boilerplate with typescript",
   "homepage": "https://github.com/smartin85/generator-d3-plugin-ts",
   "author": {
     "name": "Smartin Nematronic",
