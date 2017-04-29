@@ -7,7 +7,7 @@
 
 > [Yeoman](http://yeoman.io) generator to scaffold out a [D3](https://d3js.org/) v4 plugin boilerplate with typescript
 
-If you want to generate a d3 plugin boilerplate with **javascript** instead of typescript use the [generator-d3-plugin](https://github.com/akash-goswami/generator-d3-plugin) from [Akash Goswami](https://github.com/akash-goswami).
+If you want to generate a d3 plugin boilerplate with **javascript** instead of typescript use the [generator-d3-plugin](https://github.com/akash-goswami/generator-d3-plugin) by [Akash Goswami](https://github.com/akash-goswami).
 
 ## Installation
 
