@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>D3 plugin - <%= pluginName %></title>
+    <style type="text/css">
+		svg {
+			margin: 50px;
+			background: rgba(0, 0, 0, 0.58);
+		}
+
+		svg text {
+			stroke: white;
+			fill: white;
+		}
+	</style>
+</head>
+<body>
+
+<div id="chart"></div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript" src="<%= pluginName %>.js"></script>
+<script type="text/javascript">
+	var w=960,h=500,
+	    svg=d3.select("#chart")
+	        .append("svg")
+	        .attr("width",w)
+	        .attr("height",h);
+
+	svg.selectAll("text")
+    	.data([1])
+  		.enter()
+    	.append("text")
+		.attr("x", 480)
+		.attr("y", 250)
+    	.text(d3.<%= pluginFnName %>())
+</script>
+</body>

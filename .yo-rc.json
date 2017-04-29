@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Smartin Nematronic",
+      "authorEmail": "smartin@nematronic.de",
+      "authorUrl": "https://github.com/smartin85"
+    }
+  }
+}

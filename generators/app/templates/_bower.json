@@ -1,0 +1,32 @@
+{
+	"name": "<%= pluginName %>",
+	"version": "0.0.1",
+	"homepage": "https://github.com/<%= githubUsername %>/<%= pluginName %>",
+	"authors": [
+		"<%= authorName %>"
+	],
+	"description": "<%= pluginDescription %>",
+	"main": "./build/<%= pluginName %>.js",
+	"keywords": [
+		"d3",
+		"d3-module"
+	],
+	"license": "BSD-3-Clause",
+	"ignore": [
+		".DS_Store",
+		".git",
+		".gitignore",
+		".npmignore",
+		"package.json",
+		"tsconfig.json",
+		"server.config.json",
+		"rollup.config.js",
+		"build/typings",
+		"build/jsnext",
+		"example",
+		"src",
+		"test",
+		"node_modules"
+		
+	]
+}

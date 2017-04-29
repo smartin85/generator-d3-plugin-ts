@@ -1,0 +1,58 @@
+{
+  "name": "generator-d3-plugin-ts",
+  "version": "1.0.0",
+  "description": "Scaffold out a d3 plugin boilerplate with typescript",
+  "homepage": "https://github.com/smartin85/generator-d3-plugin-ts",
+  "author": {
+    "name": "Smartin Nematronic",
+    "email": "smartin@nematronic.de",
+    "url": "https://github.com/smartin85"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "d3",
+    "d3js",
+    "d3-plugin",
+    "typescript"
+  ],
+  "devDependencies": {
+    "coveralls": "^2.12.0",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1",
+    "nsp": "^2.6.3",
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.6.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^1.0.0",
+    "chalk": "^1.1.3",
+    "yosay": "^2.0.0",
+    "pkg-name": "^1.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartin85/generator-d3-plugin-ts.git"
+  },
+  "license": "BSD-3-Clause"
+}
